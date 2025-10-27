@@ -2,7 +2,7 @@
 dir_rule:
   base_dir: ${JM_DOWNLOAD_DIR}
   rule: Bd/(JM{Atitle_Pindex}-{Aauthor}-{Aid}
-  normalize_zh: zh-cn
+  
 client:
   impl: api # 使用api可免登录下载本子
   domain:
