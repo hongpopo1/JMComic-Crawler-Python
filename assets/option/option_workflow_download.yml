@@ -1,7 +1,7 @@
 # GitHub Actions 下载脚本配置
 dir_rule:
   base_dir: ${JM_DOWNLOAD_DIR}
-  rule: Bd_Atitle_Pindex
+  rule: Bd_(JM{Atitle_Pindex}-{Aauthor}-{Aid})
   
 client:
   impl: api # 使用api可免登录下载本子
