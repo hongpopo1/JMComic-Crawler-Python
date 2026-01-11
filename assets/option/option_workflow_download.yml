@@ -1,6 +1,6 @@
 # GitHub Actions 下载脚本配置
 dir_rule:
-  base_dir: ${JM_DOWNLOAD_DIR}
+ # base_dir: ${JM_DOWNLOAD_DIR}
   normalize_zh: None
   rule: Bd / Aid / Atitle / Aauthor
   
